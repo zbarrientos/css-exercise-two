@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: 2;
 }
 
 nav {
@@ -49,4 +51,47 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+
+h1 {
+  font-size: 2.75em;
+  font-weight: bold;
+  line-height: 3;
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+p {
+  font-size: 1em;
+}
+
+figcaption {
+  font-size: 0.75em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisted link */
+a:link {
+    color: #0000ff;
+}
+
+/* visted link */
+a:visited {
+    color:#ffff00;
+}
+
+  /* mouse over link */
+a:hover {
+    color:#0070bc;
+}
+
+/* selected */
+a:active {
+    color:#ff69b4;
 }
